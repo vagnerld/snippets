@@ -1,0 +1,22 @@
+{
+    "event": {
+        "event_type": "payment_received",
+        "summary": "Pagamento recebido",
+        "event_version": "1.0.0",
+        "resource": {
+            "transaction_id": "82300237",
+            "status": "APPROVED",
+            "transaction_date": "2018-04-02T13:24:33",
+            "message": "Valeu pelo café ☕️",
+            "amount": {
+                "currency": "BRL",
+                "total": 101
+            },
+            "payer": {
+                "username": "@joao.silva",
+                "img_url": "https://picpay-dev.s3.amazonaws.com/profiles/b815cb0045b89a7aac330a1fbf86f120.jpg",
+                "name": "João Victor da silva"
+            }
+        }
+    }
+}
